@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import "./globals.css";export const metadata:Metadata={title:"Shreyansh Baghel | Creative & Digital Portfolio",description:"Video editing, motion design, digital technology and global outreach by Shreyansh Baghel."};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
